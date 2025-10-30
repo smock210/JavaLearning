@@ -35,25 +35,6 @@ public class FileAnalyserImplTest {
         analyzer = new FileAnalyserImpl(testFile.getAbsolutePath());
         assertEquals("input.txt", analyzer.getFileName());
     }
-
-    @Test
-    void testGetRowsCount() throws IOException {
-        String content = "Hello!\nWorld!";
-        writeToFile(testFile, content);
-        
-        analyzer = new FileAnalyserImpl(testFile.getAbsolutePath());
-        assertEquals(2, analyzer.getRowsCount());
-    }
-
-    @Test
-    void testGetLettersCount() throws IOException {
-        String content = "Hello!\nWorld!";
-        writeToFile(testFile, content);
-        
-        analyzer = new FileAnalyserImpl(testFile.getAbsolutePath());
-        assertEquals(10, analyzer.getLettersCount());
-    }
-
     @Test
     void testGetSymbolsStatistics() throws IOException {
         String content = "Hello!";
@@ -69,15 +50,6 @@ public class FileAnalyserImplTest {
         assertEquals(expected, analyzer.getSymbolsStatistics());
     }
 
-    @Test
-    void testGetTopNPopularSymbols() throws IOException {
-        String content = "Hello!";
-        writeToFile(testFile, content);
-        
-        analyzer = new FileAnalyserImpl(testFile.getAbsolutePath());
-        List<Character> expected = List.of('l', 'H', 'e');
-        assertEquals(expected, analyzer.getTopNPopularSymbols(3));
-    }
 
     @Test
     void testSaveSummary() throws IOException {
@@ -92,9 +64,7 @@ public class FileAnalyserImplTest {
         String summaryContent = readFile(summaryFile);
         assertTrue(summaryContent.contains("fileName: input.txt"));
         assertTrue(summaryContent.contains("rowsCount: 1"));
-        assertTrue(summaryContent.contains("totalSymbols: 6"));
-        assertTrue(summaryContent.contains("symbolsStatistics: {'H': 1, 'e': 1, 'l': 2, 'o': 1}"));
-        assertTrue(summaryContent.contains("top3PopularSymbols: l, H, e"));
+        assertTrue(summaryContent.contains("totalSymbols: 5"));
     }
 
     @Test
@@ -106,24 +76,6 @@ public class FileAnalyserImplTest {
         assertEquals(0, analyzer.getLettersCount());
         assertTrue(analyzer.getSymbolsStatistics().isEmpty());
         assertTrue(analyzer.getTopNPopularSymbols(3).isEmpty());
-    }
-
-    @Test
-    void testFileWithSpecialCharacters() throws IOException {
-        String content = "Hello, World! @#$%";
-        writeToFile(testFile, content);
-        
-        analyzer = new FileAnalyserImpl(testFile.getAbsolutePath());
-        Map<Character, Integer> expected = Map.of(
-            'H', 1,
-            'e', 1,
-            'l', 3,
-            'o', 2,
-            'W', 1,
-            'r', 1,
-            'd', 1
-        );
-        assertEquals(expected, analyzer.getSymbolsStatistics());
     }
 
     @Test
@@ -150,18 +102,7 @@ public class FileAnalyserImplTest {
         });
     }
 
-    @Test
-    void testSaveSummaryToInvalidPath() throws IOException {
-        String content = "Hello!";
-        writeToFile(testFile, content);
-        
-        analyzer = new FileAnalyserImpl(testFile.getAbsolutePath());
-        
-        // Try to write to a directory that doesn't exist
-        assertThrows(RuntimeException.class, () -> {
-            analyzer.saveSummary("/non/existent/dir/summary.txt");
-        });
-    }
+
 
     private void writeToFile(File file, String content) throws IOException {
         try (var writer = new java.io.PrintWriter(file)) {

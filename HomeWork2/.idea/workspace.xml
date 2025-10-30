@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5c3f6cb-0630-4404-a16a-2cc1d452602d" name="Список изменений" comment="refactor" />
+    <list default="true" id="e5c3f6cb-0630-4404-a16a-2cc1d452602d" name="Список изменений" comment="refactor">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oop_nice_code/UserStorageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oop_nice_code/UserStorageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/kda/input_output_exceptions/FileAnalyserImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/kda/input_output_exceptions/FileAnalyserImplTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,10 +51,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.FileAnalyserImplTest.testEmptyFile.executor": "Run",
+    "JUnit.FileAnalyserImplTest.testFileNotFound.executor": "Run",
+    "JUnit.FileAnalyserImplTest.testFileWithNumbers.executor": "Run",
+    "JUnit.FileAnalyserImplTest.testFileWithSpecialCharacters.executor": "Run",
+    "JUnit.FileAnalyserImplTest.testGetFileName.executor": "Run",
+    "JUnit.FileAnalyserImplTest.testGetSymbolsStatistics.executor": "Run",
+    "JUnit.FileAnalyserImplTest.testGetTopNPopularSymbols.executor": "Run",
+    "JUnit.FileAnalyserImplTest.testSaveSummary.executor": "Run",
+    "JUnit.FileAnalyserImplTest.testSaveSummaryToInvalidPath.executor": "Run",
     "JUnit.UserStorageTests.userStorageTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "developer",
     "kotlin-language-version-configured": "true",
+    "last_directory_selection": "/home/work/18602641@sigma.sbrf.ru/IdeaProjects/JavaLearning/HomeWork2/src/main/java/ru/kda/oop_nice_code",
     "last_opened_file_path": "/home/work/18602641@sigma.sbrf.ru/IdeaProjects/JavaLearning/HomeWork2",
     "project.structure.last.edited": "Модули",
     "project.structure.proportion": "0.15",
@@ -69,18 +83,82 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="UserStorageTests.userStorageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FileAnalyserImplTest.testSaveSummary">
+    <configuration name="FileAnalyserImplTest.testEmptyFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lecture3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop_nice_code.*" />
+          <option name="PATTERN" value="ru.kda.input_output_exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="oop_nice_code" />
-      <option name="MAIN_CLASS_NAME" value="oop_nice_code.UserStorageTests" />
-      <option name="METHOD_NAME" value="userStorageTest" />
+      <option name="PACKAGE_NAME" value="ru.kda.input_output_exceptions" />
+      <option name="MAIN_CLASS_NAME" value="ru.kda.input_output_exceptions.FileAnalyserImplTest" />
+      <option name="METHOD_NAME" value="testEmptyFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileAnalyserImplTest.testFileNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lecture3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.kda.input_output_exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.kda.input_output_exceptions" />
+      <option name="MAIN_CLASS_NAME" value="ru.kda.input_output_exceptions.FileAnalyserImplTest" />
+      <option name="METHOD_NAME" value="testFileNotFound" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileAnalyserImplTest.testFileWithNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lecture3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.kda.input_output_exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.kda.input_output_exceptions" />
+      <option name="MAIN_CLASS_NAME" value="ru.kda.input_output_exceptions.FileAnalyserImplTest" />
+      <option name="METHOD_NAME" value="testFileWithNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileAnalyserImplTest.testSaveSummary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lecture3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.kda.input_output_exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.kda.input_output_exceptions" />
+      <option name="MAIN_CLASS_NAME" value="ru.kda.input_output_exceptions.FileAnalyserImplTest" />
+      <option name="METHOD_NAME" value="testSaveSummary" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileAnalyserImplTest.testSaveSummaryToInvalidPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lecture3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.kda.input_output_exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.kda.input_output_exceptions" />
+      <option name="MAIN_CLASS_NAME" value="ru.kda.input_output_exceptions.FileAnalyserImplTest" />
+      <option name="METHOD_NAME" value="testSaveSummaryToInvalidPath" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,7 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserStorageTests.userStorageTest" />
+        <item itemvalue="JUnit.FileAnalyserImplTest.testSaveSummary" />
+        <item itemvalue="JUnit.FileAnalyserImplTest.testEmptyFile" />
+        <item itemvalue="JUnit.FileAnalyserImplTest.testSaveSummaryToInvalidPath" />
+        <item itemvalue="JUnit.FileAnalyserImplTest.testFileNotFound" />
+        <item itemvalue="JUnit.FileAnalyserImplTest.testFileWithNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761288089365</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1761836081627</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761836081627</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,5 +237,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor" />
     <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/kda/input_output_exceptions/FileAnalyserImplTest.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
