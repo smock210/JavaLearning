@@ -9,7 +9,7 @@ public class CustomArrayImpl implements CustomArray{
     private int size;
     private Object[] elements;
 
-    private static final int DEFAULT_CAPACITY = 10;
+    private static final int DEFAULT_CAPACITY = 1;
     private static final Object[] EMPTY_ARRAY = {};
 
     /**
@@ -119,9 +119,10 @@ public class CustomArrayImpl implements CustomArray{
         if (items.length == 0) {
             return false;
         }
-        arrayOfBound(index);
         // Увеличиваем размер массива, если не хватает
         ensureCapacity(size + items.length);
+        arrayOfBound(index);
+
         // Сдвигаем существующие элементы вправо
         int numToMove = size - index;
         if (numToMove > 0) {
@@ -136,7 +137,7 @@ public class CustomArrayImpl implements CustomArray{
     }
 
     private void arrayOfBound(int index) {
-        if (index < 0 || index > elements.length) {
+        if (index < 0 || index > elements.length-1) {
             throw new IndexOutOfBoundsException("Индекс выходит за границы массива");
         }
     }
@@ -216,6 +217,7 @@ public class CustomArrayImpl implements CustomArray{
                 newCapacity = DEFAULT_CAPACITY;
             }
             elements = Arrays.copyOf(elements, newCapacity);
+            //size=elements.length;
         }
 
     }

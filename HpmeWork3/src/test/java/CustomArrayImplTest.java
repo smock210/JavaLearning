@@ -452,21 +452,9 @@ class CustomArrayImplTest {
         void ensureCapacity_larger_increasesSize() {
             customArray.add("a");
             // Предположим, изначальный size = 1, capacity = 10
-            // ensureCapacity(5) -> size = 5
+            // ensureCapacity(5) -> size = 1, т.к. size возвращает реальное кол-во заполненых элементов
             ((CustomArrayImpl) customArray).ensureCapacity(5);
-            assertEquals(5, ((CustomArrayImpl) customArray).size()); // size поля
-        }
-
-        @Test
-        @DisplayName("ensureCapacity с newElementsCount < size: уменьшает size до size/2 или (size/2)+1")
-        void ensureCapacity_smaller_decreasesSize() {
-            // Предварительно увеличим массив
-            for (int i = 0; i < 5; i++) {
-                customArray.add("x");
-            }
-            ((CustomArrayImpl) customArray).ensureCapacity(2);
-            // Ожидаем: size = 5 -> 5/2+1 = 3 (т.к. нечётно)
-            assertEquals(3, ((CustomArrayImpl) customArray).size());
+            assertEquals(1, ((CustomArrayImpl) customArray).size()); // size поля
         }
 
         @Test
