@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="88c4af03-58e8-4c46-b0f9-97a36c557e6c" name="Список изменений" comment="задание 2">
+      <change beforePath="$PROJECT_DIR$/../Learning/src/main/java/ru/kda/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning/src/main/java/ru/kda/lecture2/branching/MyBranching.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning/src/main/java/ru/kda/lecture2/branching/MyCycles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning/src/main/java/ru/kda/lecture2/common/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning/src/test/java/ru/kda/lecture2/branching/MyBranchingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning/src/test/java/ru/kda/lecture2/branching/MyCyclesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning2/.idea/.gigateam/gigateam.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning2/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning2/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning2/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning2/.idea/templateLanguagesSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning2/src/main/java/ru/kda/lecture2/branching/MyBranching.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning2/src/main/java/ru/kda/lecture2/branching/MyCycles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning2/src/main/java/ru/kda/lecture2/common/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning2/src/test/java/ru/kda/lecture2/branching/MyBranchingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning2/src/test/java/ru/kda/lecture2/branching/MyCyclesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture2/.idea/Lecture2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture2/ru.kda.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning4/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning4/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning4/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning4/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning4/.idea/templateLanguagesSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning4/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning4/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecture3/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecture3/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecture3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecture3/.idea/templateLanguagesSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecture3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecture3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecture3/src/main/java/ru/kda/input_output_exceptions/FileAnalyser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecture3/src/main/java/ru/kda/oop_nice_code/Gender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecture3/src/main/java/ru/kda/oop_nice_code/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecture3/src/main/java/ru/kda/oop_nice_code/UserStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecture3/src/main/java/ru/kda/oop_nice_code/UserStorageImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecture3/src/test/java/input_output_exceptions/FileAnalyserTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecture3/src/test/java/oop_nice_code/UserStorageTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ru.kda.learning2.properties" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;smock210&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:smock210/JavaLearning.git",
+    "accountId": "d89ce632-6a9c-4d50-9ee6-1b7a854864ba"
+  }
+}]]></component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="33pdE2LuzNCTymZDgomiDdfXrBz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.MyBranchingTest.testIfElseExample_WhenUtilFunc2ReturnsFalse.executor": "Run",
+    "JUnit.MyBranchingTest.testIfElseExample_WhenUtilFunc2ReturnsTrue.executor": "Run",
+    "JUnit.MyBranchingTest.testMaxInt_UtilsUtilFunc2False_ReturnsMaxValue.executor": "Run",
+    "JUnit.MyBranchingTest.testMaxInt_UtilsUtilFunc2True_UtilFunc1False_LoopsAndReturnsMax.executor": "Run",
+    "JUnit.MyCyclesTest.cycleDoWhileExample_Test.executor": "Run",
+    "JUnit.MyCyclesTest.cycleForExample_Test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "developer",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/work/18602641@sigma.sbrf.ru/IdeaProjects/JavaLearning/HomeWork2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.MyCyclesTest.cycleForExample_Test">
+    <configuration name="MyBranchingTest.testIfElseExample_WhenUtilFunc2ReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Learning2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.kda.lecture2.branching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.kda.lecture2.branching" />
+      <option name="MAIN_CLASS_NAME" value="ru.kda.lecture2.branching.MyBranchingTest" />
+      <option name="METHOD_NAME" value="testIfElseExample_WhenUtilFunc2ReturnsFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBranchingTest.testIfElseExample_WhenUtilFunc2ReturnsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Learning2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.kda.lecture2.branching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.kda.lecture2.branching" />
+      <option name="MAIN_CLASS_NAME" value="ru.kda.lecture2.branching.MyBranchingTest" />
+      <option name="METHOD_NAME" value="testIfElseExample_WhenUtilFunc2ReturnsTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBranchingTest.testMaxInt_UtilsUtilFunc2True_UtilFunc1False_LoopsAndReturnsMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Learning2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.kda.lecture2.branching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.kda.lecture2.branching" />
+      <option name="MAIN_CLASS_NAME" value="ru.kda.lecture2.branching.MyBranchingTest" />
+      <option name="METHOD_NAME" value="testMaxInt_UtilsUtilFunc2True_UtilFunc1False_LoopsAndReturnsMax" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyCyclesTest.cycleDoWhileExample_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Learning2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.kda.lecture2.branching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.kda.lecture2.branching" />
+      <option name="MAIN_CLASS_NAME" value="ru.kda.lecture2.branching.MyCyclesTest" />
+      <option name="METHOD_NAME" value="cycleDoWhileExample_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyCyclesTest.cycleForExample_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Learning2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.kda.lecture2.branching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.kda.lecture2.branching" />
+      <option name="MAIN_CLASS_NAME" value="ru.kda.lecture2.branching.MyCyclesTest" />
+      <option name="METHOD_NAME" value="cycleForExample_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyCyclesTest.cycleForExample_Test" />
+        <item itemvalue="JUnit.MyCyclesTest.cycleDoWhileExample_Test" />
+        <item itemvalue="JUnit.MyBranchingTest.testIfElseExample_WhenUtilFunc2ReturnsFalse" />
+        <item itemvalue="JUnit.MyBranchingTest.testIfElseExample_WhenUtilFunc2ReturnsTrue" />
+        <item itemvalue="JUnit.MyBranchingTest.testMaxInt_UtilsUtilFunc2True_UtilFunc1False_LoopsAndReturnsMax" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="уровень приложения" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Задача по умолчанию">
+      <changelist id="88c4af03-58e8-4c46-b0f9-97a36c557e6c" name="Список изменений" comment="" />
+      <created>1760017832037</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760017832037</updated>
+    </task>
+    <task id="LOCAL-00001" summary="задание 2">
+      <option name="closed" value="true" />
+      <created>1760114276197</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1760114276198</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="08c6283f-866e-453b-9723-c66ebe57b81f" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="08c6283f-866e-453b-9723-c66ebe57b81f">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/home/work/18602641@sigma.sbrf.ru/IdeaProjects/JavaLearning/Learning2/src/main/java/ru/kda/lecture2/branching" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="задание 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="задание 2" />
+  </component>
+</project>
