@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List с массовыми действиями</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1><i class="fas fa-tasks"></i> ToDo List</h1>
+        <p class="subtitle">Организуйте свои задачи и управляйте ими эффективно</p>
+    </header>
+
+    <div class="main-content">
+        <div class="input-section">
+            <input type="text" id="new-task-input" placeholder="Введите новую задачу...">
+            <button id="add-task-btn">Добавить задачу</button>
+        </div>
+
+        <div id="bulk-actions" class="bulk-actions">
+            <span id="selected-count">Выбрано: 0</span>
+            <div class="bulk-buttons">
+                <button id="mark-selected-complete" class="bulk-btn">
+                    <i class="fas fa-check"></i> Выполнить
+                </button>
+                <button id="delete-selected" class="bulk-btn">
+                    <i class="fas fa-trash"></i> Удалить
+                </button>
+                <button id="clear-selection" class="bulk-btn">
+                    <i class="fas fa-times"></i> Снять выбор
+                </button>
+            </div>
+        </div>
+
+        <div class="tasks-header">
+            <div class="tasks-count" id="tasks-count">Задач: 0</div>
+            <div class="select-all-section">
+                <button id="select-all-btn" class="select-all-btn">
+                    <i class="fas fa-check-double"></i> Выбрать все
+                </button>
+            </div>
+        </div>
+
+        <ul id="tasks-list" class="tasks-list">
+            <div class="empty-state" id="empty-state">
+                <i class="fas fa-clipboard-list"></i>
+                <h3>Нет задач</h3>
+                <p>Добавьте свою первую задачу, используя поле ввода выше</p>
+            </div>
+        </ul>
+    </div>
+
+    <footer>
+        <p>ToDo List с массовыми действиями &copy; 2025-2026</p>
+        <p>руководил написанием Коротков</p>
+        <p>Выберите несколько задач, чтобы выполнить массовые операции</p>
+    </footer>
+</div>
+<script src="js/scrypt.js"></script>
+
+</body>
+</html>

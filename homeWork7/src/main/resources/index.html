@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Person CRUD Сервис</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input, button {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            white-space: pre-wrap;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>CRUD Сервис для работы с классом персон</h1>
+    <p>Работа с сущностью Person через HTTP-запросы к серверу на <code>localhost:8080</code></p>
+
+    <label for="method">Метод:</label>
+    <select id="method">
+        <option value="GET">GET</option>
+        <option value="POST">POST</option>
+        <option value="PUT">PUT</option>
+        <option value="DELETE">DELETE</option>
+    </select>
+
+    <label for="path">Путь (например, /person или /person?id=1):</label>
+    <input type="text" id="path" placeholder="/person?id=1">
+
+    <div id="formFields">
+        <label for="name">Имя:</label>
+        <input type="text" id="name">
+
+        <label for="city">Город:</label>
+        <input type="text" id="city">
+
+        <label for="age">Возраст:</label>
+        <input type="number" id="age">
+    </div>
+
+    <button onclick="sendRequest()">Отправить запрос</button>
+
+    <div class="result" id="result">Здесь появится ответ от сервера...</div>
+</div>
+
+<script>
+    document.getElementById('method').addEventListener('change', function () {
+        const method = this.value;
+        const formFields = document.getElementById('formFields');
+        if (method === 'POST' || method === 'PUT') {
+            formFields.style.display = 'block';
+        } else {
+            formFields.style.display = 'none';
+        }
+    });
+
+    function sendRequest() {
+        const method = document.getElementById('method').value;
+        const path = document.getElementById('path').value;
+        const name = document.getElementById('name').value;
+        const city = document.getElementById('city').value;
+        const age = document.getElementById('age').value;
+
+        const request = new XMLHttpRequest();
+        const url = `http://localhost:8080${path}`;
+        request.open(method, url, true);
+
+        let body = null;
+        if (method === 'POST' || method === 'PUT') {
+            if (!name || !city || !age) {
+                document.getElementById('result').textContent = 'Ошибка: заполните все поля!';
+                return;
+            }
+            body = `name=${encodeURIComponent(name)}&city=${encodeURIComponent(city)}&age=${encodeURIComponent(age)}`;
+            request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        }
+
+        request.onreadystatechange = function () {
+            if (request.readyState === 4) {
+                const resultDiv = document.getElementById('result');
+                if (request.status === 0) {
+                    resultDiv.textContent = 'Ошибка соединения. Убедитесь, что сервер запущен на http://localhost:8080';
+                } else {
+                    resultDiv.innerHTML = `<strong>Статус:</strong> ${request.status}<br><strong>Ответ:</strong><br>${request.responseText}`;
+                }
+            }
+        };
+
+        request.send(body);
+    }
+</script>
+</body>
+</html>

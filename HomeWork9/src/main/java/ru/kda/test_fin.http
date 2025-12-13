@@ -1,0 +1,17 @@
+### Открыть форму (GET /finance)
+GET http://localhost:8080/finance
+
+
+### Успешный POST-запрос
+POST http://localhost:8080/finance?sum=100000&percentage=10&years=5
+Content-Type: application/x-www-form-urlencoded
+
+
+### POST — Сумма меньше 50 000
+POST http://localhost:8080/finance?sum=40000&percentage=10&years=5
+Content-Type: application/x-www-form-urlencoded
+
+
+### POST — Неверный формат (буквы)
+POST http://localhost:8080/finance?sum=abc&percentage=10&years=5
+Content-Type: application/x-www-form-urlencoded
